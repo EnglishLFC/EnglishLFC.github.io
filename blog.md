@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: EnglishLFC Blog
 layout: blog
 ---
 
