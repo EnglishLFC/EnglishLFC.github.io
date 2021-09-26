@@ -42,7 +42,7 @@
 				<ul>
 					{% for project in site.data.projects %}
 					<li>
-						<a href="{{ site.github.project.url }}">{{ project.name }}</a>
+						<a href="{{ site.github }}{{ project.url }}">{{ project.name }}</a>
 					</li>
 					{% endfor %}
 				</ul>
