@@ -1,0 +1,14 @@
+---
+layout: default
+---
+      <section>
+        {{ content }}
+				<ul>
+					{% for project in site.data.projects %}
+					<li>
+						<a href="{{ project.url }}">{{ project.name }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+      </section>
+
