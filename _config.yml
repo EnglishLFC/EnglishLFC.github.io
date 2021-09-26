@@ -3,8 +3,7 @@ description: My Site on Github
 theme: minima
 lsi: false
 safe: true
-source: /
-incremental: false
+incremental: true
 highlighter: rouge
 gist:
   noscript: false
